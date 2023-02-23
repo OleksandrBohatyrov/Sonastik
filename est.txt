@@ -1,0 +1,59 @@
+﻿Üles laadima
+Alla laadima
+Õpimapp
+Kopeerima
+Salasõna
+Sündmus
+Muutuja
+Andur
+Klõpsama
+Tehted
+Muuda suurust
+Taust
+Võta suureseks
+Alusta heli
+Tühik
+Teade
+Puudutama
+Klahv
+Pikkus
+Näita
+Peida
+Looma
+Suund
+Lava
+Oota
+täpne
+ühetähenduslik
+lõplik
+lahendus
+üldine
+mitu
+efektiivne
+korrektne vastus
+Pokkskeem
+ristkülik
+tegevus
+rööpkülik
+Sisend/Väljund
+romb
+tingimus
+ovaal
+algus/lõpp
+nool
+suund
+Programm
+käsk
+programmeerimiskeel
+süntaks
+semantika/tähendusõpetus
+masinakeel
+assemblerkeel
+masinakäsk
+muutuja
+täisarv
+ujukomaarv
+sõne/tekst
+tõeväärtus
+Kleebima
+Sisend
