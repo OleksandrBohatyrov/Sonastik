@@ -73,32 +73,32 @@ def game(rus_list,est_list):
         num=randint(0,(len(rus)-1))
         while num in x:
             num=randint(0,(len(rus)-1))
-    try:
-        keel=input("На каком языке вы хотите играть?\n1-русский\n2-эстонский ").lower()
-    except:
-        print("Value Error")
-    if keel==1:                                               #russian language
-        tolk=input(f"Как переводиться {rus[num]} правильно? ") 
-        if tolk==est[num]:
-            game.append(f"{i+1} {keel} ответ - правильный")
-            print("Правильно") 
-            v+=1
-        else:
-            game.append(f"{i+1}, {keel} ответ - неправильный") 
-            print("Неправильно")
-            k+=1
-    elif keel==2:                                                              #eesti
-        tolk=input(f"Как переводиться {est[num] } правильно? ") 
-        if tolk==rus[num]:
-            game.append(f"{i+1} {keel} ответ - правильный")
-            print("правильно")
-            v+=1
-        else:
-            game.append(f"{i+1}, {keel} ответ - неправильный") 
-            print("Неправильно")
-            k+=1
-    x.append(num)
-    resV=round((v/num*100),1)
-    resK=round((k/num*100),1)
-    print(f"Процент выигрыша - {resV}%")
-    print(f"Процент потерь - {resK}%")
+        try:
+            keel=input("На каком языке вы хотите играть?\n1-русский\n2-эстонский ").lower()
+        except:
+            print("Value Error")
+        if keel==1:                                               #russian language
+            tolk=input(f"Как переводиться {rus[num]} правильно? ") 
+            if tolk==est[num]:
+                game.append(f"{i+1} {keel} ответ - правильный")
+                print("Правильно") 
+                v+=1
+            else:
+                game.append(f"{i+1}, {keel} ответ - неправильный") 
+                print("Неправильно")
+                k+=1
+        elif keel==2:                                                              #eesti
+            tolk=input(f"Как переводиться {est[num] } правильно? ") 
+            if tolk==rus[num]:
+                game.append(f"{i+1} {keel} ответ - правильный")
+                print("правильно")
+                v+=1
+            else:
+                game.append(f"{i+1}, {keel} ответ - неправильный") 
+                print("Неправильно")
+                k+=1
+        x.append(num)
+        resV=round((v/num*100),1)
+        resK=round((k/num*100),1)
+        print(f"Процент выигрыша - {resV}%")
+        print(f"Процент потерь - {resK}%")

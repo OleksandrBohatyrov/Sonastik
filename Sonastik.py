@@ -6,7 +6,7 @@ est_list=loe_failist("est.txt")
 print(rus_list)
 print(est_list)
 while True:
-    v=int(input("1-Перевод\n2-Новое слово\n3-Исправить ошибку\n-4"))
+    v=int(input("1-Перевод\n2-Новое слово\n3-Исправить ошибку\n-4-"))
     if v==1:
         tolkimine(rus_list,est_list)
     elif v==2:
